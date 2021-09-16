@@ -2,6 +2,70 @@
 html { box-sizing: border-box; }
 *, ::after, ::before { box-sizing: inherit; }
 
+body {
+    font-family: 'Nunito', sans-serif;
+    background-color: #b2bec3;
+    margin: 0;
+
+}
+.box {
+    background-color: ghostwhite;
+    margin-left: auto;
+    margin-right: auto;
+    width: 550px;
+    margin-top: 150px;
+    position: relative;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.1);
+    text-align: justify;
+}
+h1 {
+    color: #d63031;
+    margin: 0;
+    font-size: 36px;
+}
+p,
+a {
+font-size: 18px;
+}
+img {
+    position: absolute;
+    right: -75px;
+    top: -75px;
+    width: 150px;
+    height: 150px;
+    border: 3px solid whitesmoke;
+    border-radius: 50%;
+}
+a {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: whitesmoke;
+    display: block;
+    width: 490px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding: 10px;
+    font-weight: bold;
+}
+.t {
+    background-color: #1da1f2;
+    border-radius: 5px;
+}
+.f {
+    background-color: #3b5998;
+    border-radius: 5px;
+    margin-top: 5px
+}
+.t:hover, .t:focus, .t:active {
+    background-color: #0b7bc1
+} 
+.f:hover, .f:focus, .f:active {
+    background-color: #2b406e;
+} 
+
 /*
 BARVY:
 šedá na pozadí stránky:		 #b2bec3
